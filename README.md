@@ -1,7 +1,7 @@
 # 🏁 CTF Writeups 🏁
-This repo servers as a collection of solutions to CTF problems that I encounter while playing CTFs and Wargames.
+This repo serves as a collection of my solutions and write-ups to CTF challenges.
 
-Feel free to criticize and correct my work! I'm always looking for better solutions to answers.
+Feel free to criticize and correct my work! I'm always looking for better solutions to answers. You're welcome to submit a GitHub issue and / or PR if you have any suggestions or feedback.
 
 #### CTFs that I've participated in:
 - **[2017]** CSAW CTF - https://ctftime.org/event/488

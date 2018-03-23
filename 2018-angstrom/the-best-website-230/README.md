@@ -111,5 +111,6 @@ actf{0bj3ct_ids_ar3nt_s3cr3ts}
 Thanks for reading! If you notice any errors, or if you have any suggestions, please feel free to submit a GitHub issue and / or a PR to the repo. Happy hacking!
 
 ## More Write-ups
--
+- http://slenderestman.com/8.html
+- https://www.pwndiary.com/write-ups/angstrom-ctf-2018-the-best-website-write-up-web230/
 

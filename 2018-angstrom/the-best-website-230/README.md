@@ -14,7 +14,7 @@ Web - 230 Points - 96 Solves
 ## Solution
 This challenge was by far my favorite challenge out of all the challenges on AngstromCTF 2018. Let's take a look at it, shall we?
 
-![img1.jpg not found](./images/img1.jpg)
+![img1.jpg not found](https://raw.githubusercontent.com/CF12/ctf/master/2018-angstrom/the-best-website-230/images/img1.jpg)
 
 Upon visiting the website, we can see that it's filled with a bunch of random buttons and messages that don't really mean anything. The site uses a [TEMPLATED](https://TEMPLATED.co) template, which is cool and all, but doesn't really help us figure out anything much.
 
@@ -22,7 +22,7 @@ Let's dig deeper...
 
 If you happen to visit the Network profiling tab while on the website, you might notice a few things worthy of your time:
 
-![img2.png not found](./images/img2.png)
+![img2.png not found](https://raw.githubusercontent.com/CF12/ctf/master/2018-angstrom/the-best-website-230/images/img2.png)
 
 There's two things to take note of here:
 - The website loads an `init.js` script
@@ -30,8 +30,8 @@ There's two things to take note of here:
 
 Let's look at `init.js` first.
 
-![img3.png not found](./images/img3.png)
-![img4.png not found](./images/img4.png)
+![img3.png not found](https://raw.githubusercontent.com/CF12/ctf/master/2018-angstrom/the-best-website-230/images/img3.png)
+![img4.png not found](https://raw.githubusercontent.com/CF12/ctf/master/2018-angstrom/the-best-website-230/images/img4.png)
 
 It looks like the script is taking 3 hex strings from the hardcoded variable `ids`, and sending them as a GET request to the endpoint `/boxes?ids=`. Then, it takes the response values and places them into the boxes on the website. (Note that we saw the request in the Network tab!)
 
@@ -41,7 +41,7 @@ If you haven't peeked at the hint yet, it mentions the presence of a database on
 
 And, if you poked around the website source, you might have found this entry at the beginning:
 
-![img5.png not found](./images/img5.png)
+![img5.png not found](https://raw.githubusercontent.com/CF12/ctf/master/2018-angstrom/the-best-website-230/images/img5.png)
 
 Visiting http://web.angstromctf.com:7667/log.txt brings us the following data:
 
@@ -71,7 +71,7 @@ DEC: [1521303851 ] [14712350] [28   ] [16574164]
 
 If we plug the first decimal value into a [UNIX Timestamp Converter](https://www.unixtimestamp.com/), we get the following:
 
-![img6.png not found](./images/img6.png)
+![img6.png not found](https://raw.githubusercontent.com/CF12/ctf/master/2018-angstrom/the-best-website-230/images/img6.png)
 
 ...which was roughly when the CTF started! (Technical issues delayed the start towards the next day)
 

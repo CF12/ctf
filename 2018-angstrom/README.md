@@ -8,5 +8,5 @@ Key           | Value
 
 Solve Counts: https://pastebin.com/hwHN2g35
 
-![scoreboard.png not found](./images/scoreboard.png)
-![problems.png not found](./images/problems.png)
+![scoreboard.png not found](https://raw.githubusercontent.com/CF12/ctf/master/2018-angstrom/images/scoreboard.png)
+![problems.png not found](https://raw.githubusercontent.com/CF12/ctf/master/2018-angstrom/images/problems.png)
